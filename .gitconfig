@@ -1,0 +1,37 @@
+[user]
+    name = oHqte
+    username = oHqte
+    email = ohqte@proton.me
+	signingkey = 817EE57C0857DF23
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = code --wait
+    hideDotFiles = false
+
+[commit]
+	gpgsign = true
+
+[color]
+    ui = true
+
+[alias]
+
+	pl = pull
+	ps = push
+
+	co = checkout
+	cl = clone
+	aa = add *
+
+	f = fetch
+	c = commit
+	b = branch
+	s = status
+
+[tag]
+	gpgsign = true
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe

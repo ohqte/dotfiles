@@ -1,0 +1,161 @@
+{
+    // app:  vscode
+    // file: settings.json
+    //
+    // title
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName} ",
+    "window.titleSeparator": " ● ",
+    //
+    // themes
+    "workbench.colorTheme": "Seti Black",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "moxer-icons",
+    "workbench.colorCustomizations": {
+        "statusBar.noFolderBackground": "#000000"
+    },
+    //
+    // fonts
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": 10,
+    "editor.fontSize": 15,
+    //
+    // telemetry
+    "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false,
+    //
+    // guides
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.guides.highlightActiveIndentation": true,
+    //
+    // autoClosing
+    "editor.autoClosingDelete": "always",
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoClosingQuotes": "always",
+    //
+    // autoFormat
+    "editor.autoIndent": "advanced",
+    "editor.autoSurround": "languageDefined",
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    //
+    // trim
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.trimAutoWhitespace": true,
+    //
+    // explorer
+    "explorer.confirmDragAndDrop": false,
+    "explorer.incrementalNaming": "smart",
+    "explorer.sortOrder": "foldersNestsFiles",
+    "explorer.copyRelativePathSeparator": "/",
+    "explorer.confirmUndo": "light",
+    "explorer.autoReveal": "focusNoScroll",
+    "explorer.confirmDelete": false,
+    //
+    // view
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 30,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "window.menuBarVisibility": "visible",
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "readme",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "phase",
+    "editor.cursorStyle": "line",
+    "editor.cursorSurroundingLines": 15,
+    //
+    // terminal
+    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.useWslProfiles": false,
+    "terminal.integrated.tabs.defaultIcon": "terminal",
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiWhite",
+    "terminal.integrated.tabs.focusMode": "doubleClick",
+    //
+    // terminal profiles
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": null,
+        "Command Prompt": null,
+        "JavaScript Debug Terminal": null,
+        "Git Bash": null,
+        "pwsh": {
+            "path": "powershell",
+            "args": [
+                "-nologo"
+            ],
+            "icon": "terminal-bash"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "pwsh",
+    //
+    // Extensions:-
+    //
+    // Error Lens
+    "errorLens.enableOnDiffView": true,
+    "errorLens.enabledInMergeConflict": true,
+    "errorLens.statusBarIconsEnabled": true,
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.statusBarColorsEnabled": true,
+    "errorLens.statusBarMessageEnabled": true,
+    "errorLens.statusBarCommand": "goToLine",
+    "errorLens.statusBarMessageTemplate": "$source `$message`",
+    "errorLens.gutterIconSet": "borderless",
+    "errorLens.messageBackgroundMode": "line",
+    //
+    // Toggle Quotes
+    "togglequotes.chars": [
+        "`",
+        "'",
+        "\""
+    ],
+    //
+    // Indent Rainbow
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.07)",
+        "rgba(127,255,127,0.07)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+    "indentRainbow.indicatorStyle": "light",
+    "window.zoomLevel": 1,
+    //
+    // LifeLine
+    "lifeline.battery.interval": 10000,
+    "lifeline.clock.format": "h:mm A",
+    "lifeline.clock.interval": 20000,
+    //
+    // python
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.indexing": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.formatting.provider": "none",
+    "python.diagnostics.sourceMapsEnabled": true,
+    //
+    // AutoDocString
+    "autoDocstring.quoteStyle": "\"\"\"",
+    "autoDocstring.startOnNewLine": true,
+    "autoDocstring.docstringFormat": "numpy",
+    //
+    // Isort
+    "isort.check": true,
+    //
+    // Black
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    },
+    //
+    // github-markdown
+    "vscode-markdown-github.theme.mode": "dark",
+    //
+    // vsintellicode
+    "vsintellicode.python.completionsEnabled": true
+}
